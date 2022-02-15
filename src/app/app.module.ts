@@ -4,19 +4,20 @@ import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Primeng components
-import {CardModule} from 'primeng/card';
-
 import { AppComponent } from './app.component';
+
+// custom modules/components
+import { NavigationModule } from './modules/navigation/navigation.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
+    NavigationModule,
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,130 @@
+:root {
+  --btn-color: #1e2641;
+}
+
+footer {
+  font-size: 16px;
+  background-color: #1c2444;
+  padding: 2em 4em;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1em;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-title {
+  font-family: "Merriweather", serif;
+  color: #f2f3fb;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 0.5em 0;
+}
+
+.col-list a {
+  color: #9da2ae;
+  text-decoration: none;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.col-list a:hover,
+.col-list a:focus {
+  text-decoration: underline;
+}
+
+.subscribe-form,
+.social-media {
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em 0;
+}
+
+.subscribe-input {
+  width: auto;
+  flex: 1;
+  background: transparent;
+  border: 0.06em solid #3a456a;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  transition: all 0.25s ease 0s;
+  display: inline-block;
+  color: #9da2ae;
+}
+
+.subscribe-input:focus {
+  outline: none;
+  border-color: #f2f3fb;
+  color: #f2f3fb;
+}
+
+.subscribe-btn {
+  background: #f1f2fc;
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  transition: all 0.25s ease 0s;
+  display: inline-block;
+  color: #1e2641;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background: #d5d9f6;
+}
+
+.form-title,
+.social-col-title {
+  font-size: 1em;
+  color: #f2f3fb;
+  font-weight: 500;
+}
+
+.social-media {
+  flex-direction: column;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-media-list a {
+  padding: 0.5em;
+  color: #9da2ae;
+  display: flex;
+  border-radius: 0.3em;
+  transition: all 0.25s ease 0s;
+}
+
+.social-media-list a:hover,
+.social-media-list a:focus {
+  color: #f2f3fb;
+  background: #ffffff1a;
+}
+
+.social-media-list svg {
+  width: 1.5em;
+  height: 1.5em;
+  transition: all 0.25s ease 0s;
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    padding: 2em;
+    flex-direction: column;
+  }
+}
