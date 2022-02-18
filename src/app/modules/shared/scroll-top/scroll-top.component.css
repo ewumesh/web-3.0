@@ -15,5 +15,9 @@
     height: 50px;
     width: 50px;
     border-radius: 100px;
-    background-color: #00E676 !important;
+    background-color: #6366F1 !important;
+}
+
+.scroll_top_button:hover {
+    cursor: pointer;
 }
